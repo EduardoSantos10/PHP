@@ -32,6 +32,8 @@
             echo "\nA multiplicação de ".$num1. " com " .$num2. " é: ".multiplicar( $num1,$num2 );
             echo "\nA divisão de ".$num1. " com " .$num2. " é: ".dividir( $num1,$num2 );
             echo "\nA sequencia de números entre ".$num1." e ".$num2." é: ".mostrarNumeros($num1,$num2); 
+            echo "\nO ".$num1." e ".$num2." é:\n ".verificarNumero($num1, $num2 );
+            echo "\nA tabuada do ".$num1." é:\n ".tabuada($num1);
             ?>
         </textarea>
 

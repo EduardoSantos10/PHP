@@ -31,6 +31,27 @@
         return $resultado;
     }
 
+    function verificarNumero($num1, $num2) {
+        if($num1 < 0 && $num2 < 0) {
+            return $num1." e ".$num2."\nsão negativos";
+        }else if($num1 > 0 && $num2 > 0) {
+            return $num1. " e " .$num2."\nesse numero é positivo";
+        }else if($num1 < 0 && $num2 > 0 ){
+            return $num1." é negativo e ".$num2." é positivo";
+            
+        }else{
+            return $num2."é positivo e ".$num1."é negativo";
+        }
+    }
+
+    function tabuada($num1) {
+        $resultado = "";
+        for($i = 0; $i <= 10; $i++){
+            $resultado .= "\n".$num1." * ".$i." = ".($num1 * $i);
+        }
+        return $resultado;
+    }
+
 
 
 
